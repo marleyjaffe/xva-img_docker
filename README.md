@@ -5,10 +5,13 @@ Docker containerization of https://github.com/eriklax/xva-img
 
 
 To create docker image: cd into folder containing this dockerfile.
-run: docker build -t xva-img .
+run: 
+
+    docker build -t xva-img .
 
 use this command to enter the docker container to run commands:
-docker run -d -it -v [LOCAL SOURCE]:/mount xva-img
+
+    docker run -d -it -v [LOCAL SOURCE]:/mount xva-img
 
 Run outside of Container
 =======
